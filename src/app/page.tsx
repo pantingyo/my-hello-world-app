@@ -1,6 +1,13 @@
+import { ThemeToggle } from "./components/theme-toggle";
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center p-4">
+      {/* Theme toggle positioned in top right */}
+      <div className="absolute top-4 right-4">
+        <ThemeToggle />
+      </div>
+      
       <main className="text-center max-w-2xl mx-auto">
         <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 md:p-12">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-800 dark:text-white mb-6">
