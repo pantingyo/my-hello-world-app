@@ -25,7 +25,7 @@ export default function Home() {
           
           <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
             <p className="text-sm text-gray-600 dark:text-gray-300">
-              🎉 Congratulations! You've successfully created and deployed your first Next.js application.
+              🎉 Congratulations! You have successfully created and deployed your first Next.js application.
             </p>
           </div>
         </div>
