@@ -2,7 +2,7 @@ import { ThemeToggle } from "./components/theme-toggle";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-orange-200 to-red-400 dark:from-gray-900 dark:to-gray-800 flex items-center justify-center p-4">
       {/* Theme toggle positioned in top right */}
       <div className="absolute top-4 right-4">
         <ThemeToggle />
@@ -30,7 +30,7 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg">
+          <div className="mt-8 p-4 bg-gray-50 dark:bg-gray-700 rounded-lg border border-gray-200 dark:border-gray-600">
             <p className="text-sm text-gray-600 dark:text-gray-300">
               🎉 Congratulations! You have successfully created and deployed your first Next.js application.
             </p>
