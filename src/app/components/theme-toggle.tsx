@@ -17,13 +17,13 @@ export function ThemeToggle() {
   }
 
   return (
-    <div className="flex items-center bg-white dark:bg-gray-800 rounded-lg p-1 shadow-md border border-gray-200 dark:border-gray-700">
+    <div className="flex items-center bg-white dark:bg-slate-800 rounded-lg p-1 shadow-md border border-gray-200 dark:border-slate-600">
       <button
         onClick={() => setTheme("light")}
         className={`flex items-center justify-center w-10 h-10 rounded-md transition-all duration-200 ${
           theme === "light"
-            ? "bg-yellow-100 dark:bg-yellow-900 text-yellow-600 dark:text-yellow-400"
-            : "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+            ? "bg-yellow-100 dark:bg-yellow-900 text-yellow-600 dark:text-yellow-300"
+            : "text-gray-500 hover:text-gray-700 dark:text-slate-300 dark:hover:text-slate-100 hover:bg-gray-100 dark:hover:bg-slate-700"
         }`}
         title="Light mode"
       >
@@ -56,8 +56,8 @@ export function ThemeToggle() {
         onClick={() => setTheme("dark")}
         className={`flex items-center justify-center w-10 h-10 rounded-md transition-all duration-200 ${
           theme === "dark"
-            ? "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-400"
-            : "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+            ? "bg-blue-100 dark:bg-blue-900 text-blue-600 dark:text-blue-300"
+            : "text-gray-500 hover:text-gray-700 dark:text-slate-300 dark:hover:text-slate-100 hover:bg-gray-100 dark:hover:bg-slate-700"
         }`}
         title="Dark mode"
       >
@@ -80,8 +80,8 @@ export function ThemeToggle() {
         onClick={() => setTheme("system")}
         className={`flex items-center justify-center w-10 h-10 rounded-md transition-all duration-200 ${
           theme === "system"
-            ? "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-400"
-            : "text-gray-500 hover:text-gray-700 dark:text-gray-400 dark:hover:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700"
+            ? "bg-purple-100 dark:bg-purple-900 text-purple-600 dark:text-purple-300"
+            : "text-gray-500 hover:text-gray-700 dark:text-slate-300 dark:hover:text-slate-100 hover:bg-gray-100 dark:hover:bg-slate-700"
         }`}
         title="System mode"
       >
